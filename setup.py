@@ -8,10 +8,6 @@ setup(
     install_requires=[
         'pillow',
     ],
-    package_data={
-        'imgbox': ['font/*'],
-    },
-    # other metadata
     author='xxai.art',
     author_email='xxai.art@gmail.com',
     description='用 pillow 画目标检测的框，支持中文（自带字体）',
