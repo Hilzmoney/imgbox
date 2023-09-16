@@ -5,7 +5,7 @@ from PIL import ImageDraw, ImageFont
 
 DIR = dirname(abspath(__file__))
 
-font_path = join(dirname(DIR), 'font/600.ttf')
+font_path = join(DIR, 'font/600.ttf')
 font = ImageFont.truetype(font_path, 20, encoding="utf-8")
 COLOR = [0, 0, 0]
 
